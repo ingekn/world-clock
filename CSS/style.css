@@ -1,6 +1,10 @@
+html {
+  height: 100%;
+}
 body {
-  background-color: #f9f7fe;
+  background: linear-gradient(to top, #e8198b 0%, #c7eafd 100%);
   font-family: "Libre Franklin", sans-serif;
+  overflow: hidden;
 }
 h1 {
   text-align: center;
@@ -28,7 +32,7 @@ footer {
   max-width: 600px;
   margin: 60px auto;
   padding: 30px;
-  background: white;
+  background: rgb(255, 255, 255, 0.8);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
   margin-bottom: 15px;
