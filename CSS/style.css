@@ -61,3 +61,12 @@ footer {
   line-height: 48px;
   /* color: blueviolet; */
 }
+
+.homepage-link {
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.hidden {
+  display: none;
+}

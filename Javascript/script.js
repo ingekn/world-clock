@@ -60,6 +60,8 @@ function updateCity(event) {
   )}</small></div>
   </div>
   `;
+  let homepageLinkElement = document.querySelector(".homepage-link");
+  homepageLinkElement.classList.remove("hidden");
 }
 
 let citySelectElement = document.querySelector("#city-select");
